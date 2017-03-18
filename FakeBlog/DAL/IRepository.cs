@@ -12,6 +12,7 @@ namespace FakeBlog.DAL
         //Create
         void AddPost(string name, Author author);
         void AddPost(string name, int postId);
+        void AddDraft(string name, int draftId);
 
         //Read
         Post GetPost(int postId);
