@@ -21,6 +21,11 @@ namespace FakeBlog.DAL
 
         public FakeBlogContext Context { get; set; }
 
+        public void AddDraft(string name, int draftId)
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddPost(string name, int postId)
         {
             throw new NotImplementedException();

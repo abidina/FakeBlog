@@ -7,7 +7,7 @@ namespace FakeBlog.Models
 {
     public class Draft
     {
-        public int draftId { get; set; }
-        public bool isPublished { get; set; }
+        public int DraftId { get; set; }
+        public bool IsPublished { get; set; }
     }
 }

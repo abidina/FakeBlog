@@ -20,6 +20,7 @@ namespace FakeBlog.DAL
         //Update
         bool AttachUser(string userId, int postId); // true: successful, false: not successful
 
+
         //Delete
         bool RemovePost(int postId);
     }
